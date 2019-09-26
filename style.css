@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #f1f1f1;
+
+}
+#mainheader{
+	width: 100%;
+	height: 300px;
+	background: white url(musiclogo.jpg) no-repeat  top 30px left 80px;
+	background-size: 350px;
+	position: relative;
+}
+#header-wrapper{
+	height: 30px;
+	width: 200px;
+	position: absolute;
+	top :190px;
+	right: 100px;
+	background-color: transparent;
+}
+#header-wrapper form{
+	display: block;
+	position: relative;
+}
+#header-wrapper input{
+	display: block;
+	float: left;
+}
+#header-wrapper #search{
+	height: 30px;
+	width: 200px;
+	border-radius: 15px 15px;
+	outline: none;
+	border :1px solid #ddd;
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.8);
+	padding: 0px 40px 0px 20px;
+
+}
+
+#header-wrapper button{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background-color: transparent;
+	text-indent: -100000px;
+	top:0px;
+	right: 3px;
+	background : transparent url(search.png) center center;
+	background-size: 25px;
+	cursor: pointer;
+	outline: none;
+
+}
+#menu{
+	display: block;
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	border-top: 1px solid #ddd;
+	border-bottom: 2px solid rgba(0,0,0,0.8);
+	position: absolute;
+	top:250px;
+	text-align: center;
+	background-color: #006400;
+}
+#menu li{
+	display: inline-block;
+	list-style: none;
+	height: 100%;
+
+}
+#menu a{
+	display: inline-block;
+	text-decoration: none;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	height: 100%;
+	color: white;
+	padding: 0px 30px 0px 30px;
+	font-size: 20px;
+}
+#menu li:hover a{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}
+#wrapper{
+	min-height: 1800px ;
+	width: 70%;
+	margin: 0px auto;
+	background-color:white;
+	border:1px solid #ddd; 
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+	text-align: center;
+}
+#wrapper h3{
+	margin: 20px auto; 
+	color: #003300;
+	font-size: 35px;
+}
+#content{
+	width: 70%;
+	min-height: 1560px;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	float: left;
+}
+#sidebar{
+	width: 30%;
+	min-height: 1000px;
+	float: left;
+	padding: 20px 20px 20px 20px;
+	border-top: 1px solid #ddd;
+	font-size: 20px;
+}
+#content >article{
+	height: 250px;
+	width: 98%;
+	border-bottom: 2px solid #003300;
+	float: left;
+	margin: 20px 10px 10px 4px;
+	position: relative;
+	text-align: left;
+	font-family: "Roboto", sans-serif;
+}
+#content >article >img{
+	width: 380px;
+	height: 230px;
+	float: left;
+	margin-right: 20px;
+}
+#content >article >a{
+	text-decoration: none;
+	display: block;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#sidebar ul{
+	display: block;
+	width: 100%;
+	margin: 30px;
+	font-size: 15px;
+	float: left;
+}
+#sidebar li{
+	list-style: none;
+	display: block;
+	width: 80%;
+	float: left;
+	margin: 10px auto;
+	border-bottom: 1px solid #ddd;
+
+}
+#sidebar li a{
+	text-decoration: none;
+	color: #003300;
+	display: block;
+	float: left;
+
+}
+#chat-online{
+	height: 500px;
+	width: 300px;
+	background-color: green;
+	position: absolute;
+	top: 100%;
+	right: 30px;
+}
+#chat-online #cwrapper{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+footer{
+	width: 100%;
+	margin-top: 20px;
+	height: 300px;
+	border-top: 1px solid #ddd;
+	background-color: white;
+}
+footer #footer-wrapper{
+	height: 80%;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	
+}
+footer #footer-wrapper >div{
+	background:  white url(musiclogo.jpg) no-repeat  top 0px center;
+	background-size: 100px;
+	width: 100%;
+	height: 100%;
+	padding-top: 70px;
+	margin-top: 20px;
+}
+
+footer #footer-wrapper li{
+	display: block;
+	font-size: 15px;
+	margin: 0px 10px;
+	list-style: none;
+
+}
+
+footer #footer-footer{
+	height: 20%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+
+}
+footer #footer-footer >p{
+	color: rgba(0,0,0,0.8);
+	font-size: 13px;
+	height: 40px;
+	line-height: 40px;
+}
+footer #footer-footer span{
+	color: #CC0000;
+}
